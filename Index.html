@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Markers</title>
+    <link href="Estilo.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"/>
+    
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEhnzTirRnXxYTFnfuKKfiJljx6kfueLM&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+
+  </head>
+
+ 
+
+  <body>
+         <H1 id="Titulo">MAPHONI V.0.7</H1>
+    
+         <div id="form">
+         <div class="row">
+            <form class="col s12">
+              <div class="row">
+
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">location_on</i>
+                  <input id="latitud" type="text" class="validate" placeholder="Latitud">
+                  <label for="icon_prefix" ></label>
+                </div>
+
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">location_searching</i>
+                  <input id="longitud" type="text" class="validate" placeholder="Longitud">
+                  <label for="icon_telephone"></label>
+                </div>
+
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">contacts</i>
+                    <input id="cedula" type="text" class="validate" placeholder="Cedula">
+                    <label for="icon_telephone"></label>
+                  </div>
+
+                <button type="button" id="Buscar" class="waves-effect btn-large cyan pulse">Buscar<i class="material-icons right">send</i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+    <div id="map"></div>
+    <script type="text/javascript" src="Script.js"></script>
+  </body>
+
+
+</html>

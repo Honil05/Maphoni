@@ -1,0 +1,104 @@
+﻿
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 45px;
+    margin-top:5px;
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.62);
+    border-bottom: 3px solid #fff;
+    color: #000000;
+    font-family: Tahoma;
+}
+
+#delete {
+    color: darkred;
+}
+
+#info {
+    color: forestgreen;
+}
+
+td {
+    padding: 8px;
+    background: rgba(232, 237, 255, 0.18);
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-top: 1px solid;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: rgba(0, 0, 0, 0.50);
+    color: #fff;
+}
+
+
+
+body {
+    background: linear-gradient(-45deg, lightseagreen, #0f4d4e, rgb(69, 70, 76), #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#icon {
+    background-color: red;
+    color: white;
+    margin-left: 970px;
+    
+    padding-bottom:50px;
+    font-size:30px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #ffffff;
+}
+
+
+
+h1 {
+
+    font-family:Tahoma;
+    color:white;
+    margin-left:50PX;
+    font-size:35PX;
+}
+
+#detalles {
+    font-family: Tahoma;
+    color: white;
+    margin-left: 50PX;
+    font-size: 20PX;
+}
+
+.col-sm-2 {
+
+    color:lightseagreen;
+}
+
+#mmm {
+    font-family: Tahoma;
+    color: white;
+    font-size: 20PX;
+}
